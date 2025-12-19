@@ -57,5 +57,5 @@ python sessionizer.py
 
 
 ## PERFORMANCE
-- **Time Complexity**: O(N log N) - Due to sorting events per user
-- **Space Complexity**: O(N) - For storing events and results
+- Time Complexity: O(N log N) - Due to sorting events per user
+- Space Complexity: O(N) - For storing events and results
