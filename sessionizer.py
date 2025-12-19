@@ -1,8 +1,12 @@
 def sessionize_events(events):
     
     ''' 
-        Time Complexity: O(N log N)  -  Sorting events per user dominates the runtime.
-        Space Complexity: O(N)  -  Used to store grouped events and session results.
+        Time Complexity: O(N log N)  
+        The events need to be sorted before creating sessions, and sorting takes the most time.
+        
+        
+        Space Complexity: O(N)  
+        Extra memory is used to store the events for each user and the sessions created from them.
     '''
     # 30 minutes session gap in seconds (30 * 60)
     SESSION_GAP = 1800
