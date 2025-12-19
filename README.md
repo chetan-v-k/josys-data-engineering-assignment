@@ -56,5 +56,3 @@ events = [
 ## RUNNING THE SCRIPT 
 python sessionizer.py
 ```
-
-
