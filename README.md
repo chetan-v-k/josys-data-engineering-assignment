@@ -52,9 +52,9 @@ events = [
 
 
 ## RUNNING THE SCRIPT
-
+```
 python sessionizer.py
-
+```
 
 ## PERFORMANCE
 - Time Complexity: O(N log N) - Due to sorting events per user
