@@ -1,4 +1,9 @@
 def sessionize_events(events):
+    
+    ''' 
+        Time Complexity: O(N log N)  -  Sorting events per user dominates the runtime.
+        Space Complexity: O(N)  -  Used to store grouped events and session results.
+    '''
     # 30 minutes session gap in seconds (30 * 60)
     SESSION_GAP = 1800
 
